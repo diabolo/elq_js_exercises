@@ -8,6 +8,7 @@ describe('isEven', function() {
     { arg: 2, expected: true },
     { arg: 50, expected: true },
     { arg: 75, expected: false },
+    { arg: -1, expected: false },
   ];
 
   tests.forEach(function(test) {
