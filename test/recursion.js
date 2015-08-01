@@ -5,6 +5,7 @@ describe('isEven', function() {
   var tests = [
     { arg: 0, expected: true },
     { arg: 1, expected: false },
+    { arg: 2, expected: true },
   ];
 
   tests.forEach(function(test) {
