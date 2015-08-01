@@ -16,7 +16,4 @@ describe('isEven', function() {
       expect(recurse.isEven(test.arg)).to.equal(test.expected);
     });
   });
-
-
-  
 });
