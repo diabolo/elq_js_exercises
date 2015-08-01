@@ -4,6 +4,7 @@ var recurse = require("../recursion.js")
 describe('isEven', function() {
   var tests = [
     { arg: 0, expected: true },
+    { arg: 1, expected: false },
   ];
 
   tests.forEach(function(test) {
