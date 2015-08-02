@@ -5,7 +5,9 @@ describe('beanCount', function() {
   describe('countBs', function() {
     var tests = [
       { arg: '', expected: 0 },
-      // { arg: 'B', expected: 1 },
+      { arg: 'B', expected: 1 },
+      { arg: 'xxffdff', expected: 0 },
+      { arg: 'xBffBfB', expected: 3 },
     ];
 
     tests.forEach(function(test) {
