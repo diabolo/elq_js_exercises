@@ -6,6 +6,7 @@ describe('range', function() {
     { args: [1,3], expected: [1,2,3]},
     { args: [-1,2], expected: [-1,0,1,2]},
     { args: [3,0,-1], expected: [3,2,1,0]},
+    { args: [3,0,0], expected: []},
   ];
 
   tests.forEach(function(test) {
